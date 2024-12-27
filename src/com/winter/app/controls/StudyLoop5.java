@@ -21,29 +21,24 @@ public class StudyLoop5 {
 			System.out.println("1.단발 2.점사");
 			int select = sc.nextInt();
 			System.out.println(select);
-			int count=0;
-			String sound="타타탕";
 			
 			if(select==1) {
-				count=30;
-				sound="탕";
-			}else {
-				count=10;
-				sound="타타탕";
-			
-				for(int j=0;j<count;j++) {
-				System.out.println(j+ 1 +"타타탕");
+				for(int j=0;j<30;j++) {
+					System.out.println("탕");
 				}
-		 
-			}
-			System.out.println("탄창소비");
-
 			
-			
-		}
-		
-		
+			}else {
+				for(int j=0;j<10;j++) {
+					System.out.println(j+1+"타타탕");
+				}
+					}
+				}
+				
+		System.out.println("탄창 소비");
 		System.out.println("프로그램 종료");
-	}
+		}
+	 		
+		}
+	
 
-}
+
