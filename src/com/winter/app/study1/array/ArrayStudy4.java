@@ -21,7 +21,7 @@ public class ArrayStudy4 {
 			}
 			System.out.println();
 		}
-			
+		}
 			System.out.println("=====================");
 			
 			for(int i=0;i<nums.length;i++) {
@@ -32,4 +32,4 @@ public class ArrayStudy4 {
 
 	}
 
-}
+
