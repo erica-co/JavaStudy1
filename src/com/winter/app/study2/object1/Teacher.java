@@ -6,5 +6,6 @@ public class Teacher {
 		String kind;
 		Student [] students; //class 타입으로 Student 선언가능
 		
+		
 
 }
